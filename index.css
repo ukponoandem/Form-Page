@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+background-color: #9bb5ec;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ .navbar{
+    display: flex;
+justify-content: end;
+align-items: center;
+background-color: #3b3b6a;
+
+
+}
+.list{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+
+    
+}
+.list a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  
+}
+.content{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 20px;
+}
+.content:hover{
+text-decoration: underline;
+
+} 
+
+
+
+
+ .register-form {
+   background-color: #fff;
+    padding: 20px 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 40px auto 0;
+    max-width: 400px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.register-form h2 {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #3b3b6a;
+}
+.register-form span{
+    font-size: 14px;
+    
+}
+
+.form-wrapper label {
+
+    margin: 14px;
+    font-weight: 500;
+    color:  #3b3b6a;
+   
+}
+ .form-wrapper p{
+    font-size: 12px;
+} 
+.form-p{
+    text-align: center;
+    
+}
+.form-wrapper span{
+    color: #0056b3;
+    font-size: 10px;
+    
+}
+.form-wrapper a{
+    text-decoration:underline;
+    padding: 10px;
+    color: black;
+}
+.forget-password{
+    margin-left: 10px;
+}
+.form-wrapper p a{
+    text-decoration:none ;
+    padding: 1px;
+    color: #0056b3;    
+}
+a:hover{
+    color: red;
+}
+.input-form{
+    padding: 10px;
+width: 300px;
+height: auto;
+margin: 10px; 
+border: solid 1px lightgray;
+border-radius: 4px; 
+ margin-left: 20px;
+}
+
+
+.input-form:focus {
+    border-color: #3b3b6a;
+    outline: none;
+}
+
+button[type="submit"] {
+    width: 320px;
+    padding: 12px;
+    background-color:  #3b3b6a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button[type="submit"] a{
+text-decoration: none;
+color: #fff;
+
+}
+
+@media (max-width: 480px) {
+    .register-form {
+        padding: 15px 10px;
+    }
+    .register-form h2 {
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+    }
+    .input-form,
+    button[type="submit"] {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .form-wrapper label {
+        margin: 10px 0 5px 0;
+        font-size: 14px;
+    }
+}
+@media (max-width: 320px) {
+
+      .register-form h2 {
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+    }
+
+    .register-form span{
+    font-size: 10px;
+}
+.form-wrapper p a{
+    text-decoration:none ;
+    padding: 1px;
+    font-size: 10px;
+      
+}
+.form-wrapper a{
+   font-size: 12px;
+}
+.forget-password{
+    margin-left: 0px;
+}
+
+.input-form{
+    padding: 10px;
+width: 200px;
+height: auto;
+margin: 10px; 
+
+}
+
+button[type="submit"] {
+    width: 220px;
+    padding: 10px;
+    margin-left: 10px;
+
+}
+}
+
