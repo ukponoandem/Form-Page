@@ -38,16 +38,13 @@ text-decoration: underline;
 
 } 
 
-
-
-
  .register-form {
    background-color: #fff;
     padding: 20px 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
      margin: 40px auto 0; 
-  max-width: 400px;
+    max-width: 400px;
     width: 90%;
     flex-direction: column;
     flex-wrap: wrap;
@@ -55,7 +52,6 @@ text-decoration: underline;
     align-items: center;
     justify-content: center;
     margin-top: 100px;
-
 }
 
 .register-form h2 {

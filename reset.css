@@ -48,6 +48,8 @@ text-decoration: underline;
      margin: 40px auto 0;
      max-width: 400px;
     width: 90%;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
     box-sizing: border-box;
