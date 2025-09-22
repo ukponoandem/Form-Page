@@ -35,7 +35,6 @@ background-color: #3b3b6a;
 }
 .content:hover{
 text-decoration: underline;
-
 } 
 
  .register-form {
@@ -158,6 +157,18 @@ color: #fff;
     }
 }
 @media (max-width: 320px) {
+    .register-form {
+  background-color: #fff;
+    padding: 20px 10px;
+     margin-top: 60px;
+}
+
+.content{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 20px;
+}
+
 
       .register-form h2 {
         margin-bottom: 20px;

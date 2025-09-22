@@ -18,9 +18,7 @@ background-color: #3b3b6a;
 .list{
     display: flex;
     gap: 24px;
-    list-style: none;
-
-    
+    list-style: none; 
 }
 .list a {
   color: white;
@@ -136,20 +134,32 @@ button[type="submit"]:hover {
     }
 }
 @media (max-width: 320px) {
+    .register-form {
+  background-color: #fff;
+    padding: 20px 10px;
+  
+     margin-top: 60px;
+}
 
-      .register-form h2 {
-        margin-bottom: 20px;
-        font-size: 1.2rem;
+.content{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 20px;
+}
+
+.register-form h2 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
     }
 
-    .register-form span{
+.register-form span{
     font-size: 10px;
 }
 .form-wrapper a{
    font-size: 12px;
 }
 .input-form{
-    padding: 10px;
+padding: 10px;
 width: 200px;
 height: auto;
 margin: 10px; 
